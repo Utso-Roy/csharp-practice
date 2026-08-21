@@ -42,6 +42,47 @@ class Test
         // int sum = number1 + number2;
         // Console.WriteLine("Total Sum " + sum);
         // Console.WriteLine("Type" + sum.GetType());
+
+        // int age;
+
+        // Console.WriteLine("Enter Your Age");
+        // age = int.Parse(Console.ReadLine());
+
+        // for (int i = 0;  i <= age; i++)
+        // {
+        //     Console.WriteLine(i);
+        // }
+
+        // if (age <= 12)
+        // {
+        //     Console.WriteLine("Child");
+        // }
+        // else if (age <= 17)
+        // {
+        //     Console.WriteLine("Teenager");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("Adult");
+        // }
+
+        string text;
+        Console.WriteLine("Please Write your Name");
+        text = Console.ReadLine();
+
+        int count = 0;
+
+        for (int i = 0; i < text.Length; i++)
+        {
+            if (text[i] == 'a' || text[i] == 'e' || text[i] == 'i' ||
+                text[i] == 'o' || text[i] == 'u')
+            {
+                count++;
+            }
+        }
+
+        Console.WriteLine($"Vowel count: {count}");
     }
 }
+
 
