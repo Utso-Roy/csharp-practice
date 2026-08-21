@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.WebSockets;
 class Test
 {
     public static void Main(string[] args)
@@ -66,22 +67,41 @@ class Test
         //     Console.WriteLine("Adult");
         // }
 
-        string text;
-        Console.WriteLine("Please Write your Name");
-        text = Console.ReadLine();
+        // string text;
+        // Console.WriteLine("Please Write your Name");
+        // text = Console.ReadLine();
 
-        int count = 0;
+        // int count = 0;
 
-        for (int i = 0; i < text.Length; i++)
+        // for (int i = 0; i < text.Length; i++)
+        // {
+        //     if (text[i] == 'a' || text[i] == 'e' || text[i] == 'i' ||
+        //         text[i] == 'o' || text[i] == 'u')
+        //     {
+        //         count++;
+        //     }
+        // }
+
+        // Console.WriteLine($"Vowel count: {count}");
+
+        //  switch short 
+
+        int digit = 7;
+
+        string message = digit switch
         {
-            if (text[i] == 'a' || text[i] == 'e' || text[i] == 'i' ||
-                text[i] == 'o' || text[i] == 'u')
-            {
-                count++;
-            }
-        }
+            1 => "One",
+            2 => "Two",
+            3 => "Three",
+            4 => "Four",
+            5 => "Five",
+           _  => "Unknown"
 
-        Console.WriteLine($"Vowel count: {count}");
+
+        };
+        Console.WriteLine($"Value : {message}");
+
+
     }
 }
 
