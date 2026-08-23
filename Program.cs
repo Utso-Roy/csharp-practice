@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Net.WebSockets;
 class Test
 {
     public static void Main(string[] args)
@@ -86,22 +85,24 @@ class Test
 
         //  switch short 
 
-        int digit = 7;
-
-        string message = digit switch
-        {
-            1 => "One",
-            2 => "Two",
-            3 => "Three",
-            4 => "Four",
-            5 => "Five",
-           _  => "Unknown"
-
-
-        };
-        Console.WriteLine($"Value : {message}");
+        // int digit = 7;
+        // string message = digit switch
+        // {
+        //     1 => "One",
+        //     2 => "Two",
+        //     3 => "Three",
+        //     4 => "Four",
+        //     5 => "Five",
+        //    _  => "Unknown"
 
 
+        // };
+        // Console.WriteLine($"Value : {message}");
+
+        SwitchExample.Run();
+
+        int result = MathHelper.Sum(20, 30);
+        Console.WriteLine(result);
     }
 }
 
