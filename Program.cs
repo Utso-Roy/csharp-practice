@@ -99,10 +99,12 @@ class Test
         // };
         // Console.WriteLine($"Value : {message}");
 
-        SwitchExample.Run();
+        // SwitchExample.Run();
 
-        int result = MathHelper.Sum(20, 30);
-        Console.WriteLine(result);
+        // int result = MathHelper.Sum(20, 30);
+        // Console.WriteLine(result);
+
+        StudentFactory.Run();
     }
 }
 
