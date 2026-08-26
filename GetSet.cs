@@ -15,7 +15,11 @@ class Bank
     public int Amount
     {
         get{ return amount; }
-        set { amount = value; }
+        set {
+            amount = value; 
+        Console.WriteLine(
+            value >= 500 ? "Good Amount" : "Amount is low"
+        ); }
   
     }
 

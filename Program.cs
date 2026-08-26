@@ -12,8 +12,8 @@ class Test
         //Get and set 
         Bank b1 = new Bank();
         b1.Name = "Utso Roy";
-         b1.Amount = 500;
-        Console.WriteLine($"Employee Name = {b1.Name} \n Employee Amount = {b1.Amount}");
+         b1.Amount = 400;
+        Console.WriteLine($"Employee Name = {b1.Name} \nEmployee Amount = {b1.Amount}");
 
         // b1.Display("Utso Roy",500);
 
