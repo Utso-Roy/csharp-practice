@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel;
 class Test
 {
     public static void Main(string[] args)
@@ -20,11 +19,9 @@ class Test
         BankEmployee b4 = new BankEmployee(500);
         Console.WriteLine(b4.value);
 
-
-
+        TryCatch t = new TryCatch("utso");
 
 
     }
 }
-
 
