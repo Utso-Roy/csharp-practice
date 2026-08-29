@@ -21,6 +21,9 @@ class Test
 
         TryCatch t = new TryCatch("utso");
 
+        Array a = new Array();
+        a.LearnToArray();
+
 
     }
 }
