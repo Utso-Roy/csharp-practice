@@ -16,13 +16,16 @@ class Test
 
         // b1.Display("Utso Roy",500);
 
-        BankEmployee b4 = new BankEmployee(500);
-        Console.WriteLine(b4.value);
+        // BankEmployee b4 = new BankEmployee(500);
+        // Console.WriteLine(b4.value);
 
-        TryCatch t = new TryCatch("utso");
+        // TryCatch t = new TryCatch("utso");
 
-        Array a = new Array();
-        a.LearnToArray();
+        // Array a = new Array();
+        // a.LearnToArray();
+
+        MultiDimensionArray mda = new MultiDimensionArray();
+        mda.MultiDimension();
 
 
     }
