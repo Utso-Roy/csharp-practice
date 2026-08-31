@@ -24,8 +24,11 @@ class Test
         // Array a = new Array();
         // a.LearnToArray();
 
-        MultiDimensionArray mda = new MultiDimensionArray();
-        mda.MultiDimension();
+        // MultiDimensionArray mda = new MultiDimensionArray();
+        // mda.MultiDimension();
+
+        JaggedArray ja = new JaggedArray();
+        ja.Jagged();
 
 
     }
