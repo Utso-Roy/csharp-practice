@@ -6,6 +6,7 @@ class ArrayProperty
         int[] Copy = new int[numbers.Length];
         System.Array.Copy(numbers, Copy, numbers.Length);
         Console.Write($"Copy Array = {string.Join(", ", Copy)} ");
+        
 
         Console.WriteLine($"Total Sum Of Array = {numbers.Sum()}");
         Console.WriteLine($"Array Length = {numbers.Length}");

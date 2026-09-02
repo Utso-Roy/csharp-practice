@@ -30,8 +30,13 @@ class Test
         // JaggedArray ja = new JaggedArray();
         // ja.Jagged();
 
-        ArrayProperty ap = new ArrayProperty();
-        ap.Property();
+        // ArrayProperty ap = new ArrayProperty();
+        // ap.Property();
+
+        // params 
+
+        Params p = new Params();
+        p.ParamsPractice(20, 30, 220, 50, 610, 65);
 
 
     }
