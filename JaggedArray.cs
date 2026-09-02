@@ -1,4 +1,3 @@
-using System.Formats.Asn1;
 
 class JaggedArray
 {
@@ -17,8 +16,6 @@ class JaggedArray
             foreach (var column in row)
             {
                 Console.Write($"{column}" + " ");
-
-
             }
             Console.WriteLine();
             

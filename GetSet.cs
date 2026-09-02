@@ -3,7 +3,6 @@ class Bank
 {
     private string name;
     private int amount;
-
 // short
 //    public string Name { get; set; }
 //     public int Amount { get; set; }
@@ -12,7 +11,7 @@ class Bank
         get { return name; }
         set { name = value; }
     }
-    public int Amount
+        public int Amount
     {
         get{ return amount; }
         set {
@@ -20,14 +19,9 @@ class Bank
         Console.WriteLine(
             value >= 500 ? "Good Amount" : "Amount is low"
         ); }
-  
     }
-
-
     public void Display(string name, int amount)
     {
         Console.WriteLine($"Employee Name = {name}\n Employee Total Amount = {amount}");
     }
-
-
 }
