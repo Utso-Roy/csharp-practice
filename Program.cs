@@ -35,8 +35,15 @@ class Test
 
         // params 
 
-        Params p = new Params();
-        p.ParamsPractice(20, 30, 220, 50, 610, 65);
+        // Params p = new Params();
+        // p.ParamsPractice(20, 30, 220, 50, 610, 65);
+
+        //shallow copy and deep copy
+
+        DeepCopy dp = new DeepCopy();
+        dp.DeepCopyPractice();
+        dp.ShallowCopyPractice();
+
 
 
     }
