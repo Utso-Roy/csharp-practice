@@ -40,11 +40,13 @@ class Test
 
         //shallow copy and deep copy
 
-        DeepCopy dp = new DeepCopy();
-        dp.DeepCopyPractice();
-        dp.ShallowCopyPractice();
+        // DeepCopy dp = new DeepCopy();
+        // dp.DeepCopyPractice();
+        // dp.ShallowCopyPractice();
 
-
+        //Linq
+        Linq l = new Linq();
+        l.LinqQuarry();
 
     }
 }
