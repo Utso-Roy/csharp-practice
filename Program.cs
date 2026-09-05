@@ -45,8 +45,21 @@ class Test
         // dp.ShallowCopyPractice();
 
         //Linq
-        Linq l = new Linq();
-        l.LinqQuarry();
+        // Linq l = new Linq();
+        // l.LinqQuarry();
+
+        // Polymorphism
+
+        Polymorphism p = new Polymorphism();
+        p.PolymorphismPractice();
+
+
+        DerivedClass d = new DerivedClass();
+        d.PolymorphismPractice();
+
+
+
+
 
     }
 }
