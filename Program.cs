@@ -58,6 +58,11 @@ class Test
         d.PolymorphismPractice();
 
 
+        // abstract class 
+        DerivedAbstraction d1 = new DerivedAbstraction();
+        d1.Result();
+        
+
 
 
 
