@@ -1,3 +1,4 @@
+//LINQ 
 class ArrayProperty
 {
     public void Property()
