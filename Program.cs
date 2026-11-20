@@ -46,21 +46,21 @@ class Test
 
         //Linq
         // Linq l = new Linq();
-        // l.LinqQuarry();
+        // l.LinqQuarry();  
 
         // Polymorphism
 
-        Polymorphism p = new Polymorphism();
-        p.PolymorphismPractice();
+        // Polymorphism p = new Polymorphism();
+        // p.PolymorphismPractice();
 
 
-        DerivedClass d = new DerivedClass();
-        d.PolymorphismPractice();
+        // DerivedClass d = new DerivedClass();
+        // d.PolymorphismPractice();
 
 
         // abstract class 
-        DerivedAbstraction d1 = new DerivedAbstraction();
-        d1.Result();
+        // DerivedAbstraction d1 = new DerivedAbstraction();
+        // d1.Result();
         
 
 
