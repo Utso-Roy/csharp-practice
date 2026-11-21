@@ -18,7 +18,7 @@ class DeepCopy:ShallowCopy
     public void DeepCopyPractice()
     {
         int[] deepCopyArray = new int[originalArray.Length];
-      System.Array.Copy(originalArray, deepCopyArray, originalArray.Length);
+        System.Array.Copy(originalArray, deepCopyArray, originalArray.Length);
         deepCopyArray[2] = 80;
         Console.Write($"DeepCopyArray = {string.Join(", ", deepCopyArray)}");
         Console.WriteLine();

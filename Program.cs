@@ -1,4 +1,5 @@
 ﻿using System;
+using MyConsoleApp.Practice.cs;
 class Test
 {
     public static void Main(string[] args)
@@ -61,7 +62,21 @@ class Test
         // abstract class 
         // DerivedAbstraction d1 = new DerivedAbstraction();
         // d1.Result();
-        
+
+        // Interface 
+
+        CopyConstractor c1 = new CopyConstractor("Utso Roy");
+        Console.WriteLine($"This is main constructor + {c1.Name}");
+
+        CopyConstractor c2 = new CopyConstractor(c1);
+        Console.WriteLine($"This is Copy Constructor +  {c2.Age}");
+    
+    
+
+
+
+
+
 
 
 
